@@ -1,5 +1,9 @@
+
  data=[1,3,5]
- data=[1,3,5]
- data=[1,3,5]
-Som=sum(data)
- print ('lasomme est : ', Som)
+if data :
+    print('lasomme est : ',sum(data))
+    print ('le min est',min(data))
+    print('le max est',max(data))
+else :
+    print('dossier vide')
+
